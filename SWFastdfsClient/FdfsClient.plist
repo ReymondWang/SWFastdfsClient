@@ -13,6 +13,6 @@
 	<key>ConnectTimeOut</key>
 	<integer>10</integer>
 	<key>TrackerServer</key>
-	<string>139.196.186.85:22122</string>
+	<string>192,168.0.1:22122</string>
 </dict>
 </plist>

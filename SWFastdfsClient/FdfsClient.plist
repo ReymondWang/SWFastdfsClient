@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SecretKey</key>
+	<string>FastDFS1234567890</string>
+	<key>AntiStealToken</key>
+	<false/>
+	<key>TrackerHttpPort</key>
+	<integer>8888</integer>
+	<key>Charset</key>
+	<string>ISO8859-1</string>
+	<key>ConnectTimeOut</key>
+	<integer>10</integer>
+	<key>TrackerServer</key>
+	<string>139.196.186.85:22122</string>
+</dict>
+</plist>

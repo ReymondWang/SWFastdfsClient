@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23FD8C3F478DEF5006E25000 /* Pods_SWFastdfsClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1779356BD2252468EA24D5 /* Pods_SWFastdfsClient.framework */; };
+		2A81BAEB0010B359FC0EB2D6 /* Pods_SWFastdfsClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4F95BD4383F7B525D75DAD /* Pods_SWFastdfsClientTests.framework */; };
+		BA834AF31D31EBB20074DA5F /* SWFastdfsClient.h in Headers */ = {isa = PBXBuildFile; fileRef = BA834AF21D31EBB20074DA5F /* SWFastdfsClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA834AFA1D31EBB20074DA5F /* SWFastdfsClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA834AEF1D31EBB20074DA5F /* SWFastdfsClient.framework */; };
+		BA834AFF1D31EBB20074DA5F /* SWFastdfsClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834AFE1D31EBB20074DA5F /* SWFastdfsClientTests.swift */; };
+		BA834B1F1D31EC490074DA5F /* TrackerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B091D31EC490074DA5F /* TrackerClient.swift */; };
+		BA834B201D31EC490074DA5F /* TrackerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B091D31EC490074DA5F /* TrackerClient.swift */; };
+		BA834B211D31EC490074DA5F /* ClientGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0A1D31EC490074DA5F /* ClientGlobal.swift */; };
+		BA834B221D31EC490074DA5F /* ClientGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0A1D31EC490074DA5F /* ClientGlobal.swift */; };
+		BA834B231D31EC490074DA5F /* TrackerGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0B1D31EC490074DA5F /* TrackerGroup.swift */; };
+		BA834B241D31EC490074DA5F /* TrackerGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0B1D31EC490074DA5F /* TrackerGroup.swift */; };
+		BA834B251D31EC490074DA5F /* ProtoCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0C1D31EC490074DA5F /* ProtoCommon.swift */; };
+		BA834B261D31EC490074DA5F /* ProtoCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0C1D31EC490074DA5F /* ProtoCommon.swift */; };
+		BA834B271D31EC490074DA5F /* NameValuePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0D1D31EC490074DA5F /* NameValuePair.swift */; };
+		BA834B281D31EC490074DA5F /* NameValuePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0D1D31EC490074DA5F /* NameValuePair.swift */; };
+		BA834B291D31EC490074DA5F /* TrackerServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0E1D31EC490074DA5F /* TrackerServer.swift */; };
+		BA834B2A1D31EC490074DA5F /* TrackerServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0E1D31EC490074DA5F /* TrackerServer.swift */; };
+		BA834B2B1D31EC490074DA5F /* UnixUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0F1D31EC490074DA5F /* UnixUtils.swift */; };
+		BA834B2C1D31EC490074DA5F /* UnixUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B0F1D31EC490074DA5F /* UnixUtils.swift */; };
+		BA834B2D1D31EC490074DA5F /* ServerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B101D31EC490074DA5F /* ServerInfo.swift */; };
+		BA834B2E1D31EC490074DA5F /* ServerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B101D31EC490074DA5F /* ServerInfo.swift */; };
+		BA834B2F1D31EC490074DA5F /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B111D31EC490074DA5F /* FileInfo.swift */; };
+		BA834B301D31EC490074DA5F /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B111D31EC490074DA5F /* FileInfo.swift */; };
+		BA834B311D31EC490074DA5F /* StorageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B121D31EC490074DA5F /* StorageClient.swift */; };
+		BA834B321D31EC490074DA5F /* StorageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B121D31EC490074DA5F /* StorageClient.swift */; };
+		BA834B331D31EC490074DA5F /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B131D31EC490074DA5F /* Base64.swift */; };
+		BA834B341D31EC490074DA5F /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B131D31EC490074DA5F /* Base64.swift */; };
+		BA834B351D31EC490074DA5F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B141D31EC490074DA5F /* Utils.swift */; };
+		BA834B361D31EC490074DA5F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B141D31EC490074DA5F /* Utils.swift */; };
+		BA834B371D31EC490074DA5F /* StorageServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B151D31EC490074DA5F /* StorageServer.swift */; };
+		BA834B381D31EC490074DA5F /* StorageServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B151D31EC490074DA5F /* StorageServer.swift */; };
+		BA834B391D31EC490074DA5F /* StorageClient1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B161D31EC490074DA5F /* StorageClient1.swift */; };
+		BA834B3A1D31EC490074DA5F /* StorageClient1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B161D31EC490074DA5F /* StorageClient1.swift */; };
+		BA834B3B1D31EC490074DA5F /* StructBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B171D31EC490074DA5F /* StructBase.swift */; };
+		BA834B3C1D31EC490074DA5F /* StructBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B171D31EC490074DA5F /* StructBase.swift */; };
+		BA834B3D1D31EC490074DA5F /* StructGroupStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B181D31EC490074DA5F /* StructGroupStat.swift */; };
+		BA834B3E1D31EC490074DA5F /* StructGroupStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B181D31EC490074DA5F /* StructGroupStat.swift */; };
+		BA834B3F1D31EC490074DA5F /* ProtoStructDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B191D31EC490074DA5F /* ProtoStructDecoder.swift */; };
+		BA834B401D31EC490074DA5F /* ProtoStructDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B191D31EC490074DA5F /* ProtoStructDecoder.swift */; };
+		BA834B411D31EC490074DA5F /* StructStorageStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B1A1D31EC490074DA5F /* StructStorageStat.swift */; };
+		BA834B421D31EC490074DA5F /* StructStorageStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B1A1D31EC490074DA5F /* StructStorageStat.swift */; };
+		BA834B431D31EC490074DA5F /* UploadCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B1B1D31EC490074DA5F /* UploadCallback.swift */; };
+		BA834B441D31EC490074DA5F /* UploadCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B1B1D31EC490074DA5F /* UploadCallback.swift */; };
+		BA834B451D31EC490074DA5F /* DownloadCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B1C1D31EC490074DA5F /* DownloadCallback.swift */; };
+		BA834B461D31EC490074DA5F /* DownloadCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B1C1D31EC490074DA5F /* DownloadCallback.swift */; };
+		BA834B471D31EC490074DA5F /* UploadStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B1D1D31EC490074DA5F /* UploadStream.swift */; };
+		BA834B481D31EC490074DA5F /* UploadStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B1D1D31EC490074DA5F /* UploadStream.swift */; };
+		BA834B491D31EC490074DA5F /* DownloadStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B1E1D31EC490074DA5F /* DownloadStream.swift */; };
+		BA834B4A1D31EC490074DA5F /* DownloadStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B1E1D31EC490074DA5F /* DownloadStream.swift */; };
+		BA834B4C1D31EE930074DA5F /* FdfsClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA834B4B1D31EE930074DA5F /* FdfsClient.plist */; };
+		BA834B4D1D31EE930074DA5F /* FdfsClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA834B4B1D31EE930074DA5F /* FdfsClient.plist */; };
+		BA834B4F1D31EF970074DA5F /* FdfsClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B4E1D31EF970074DA5F /* FdfsClientConfiguration.swift */; };
+		BA834B501D31EF970074DA5F /* FdfsClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA834B4E1D31EF970074DA5F /* FdfsClientConfiguration.swift */; };
+		BA834B551D31F1F40074DA5F /* FdfsClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA834B541D31F1F40074DA5F /* FdfsClient.plist */; };
+		BA834B561D31F1F40074DA5F /* FdfsClient.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA834B541D31F1F40074DA5F /* FdfsClient.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA834AFB1D31EBB20074DA5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA834AE61D31EBB20074DA5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA834AEE1D31EBB20074DA5F;
+			remoteInfo = SWFastdfsClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3AE8EE718C18937BAF3C4D /* Pods-SWFastdfsClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWFastdfsClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWFastdfsClient/Pods-SWFastdfsClient.debug.xcconfig"; sourceTree = "<group>"; };
+		4816D4DB98BA5C3BF329EB60 /* Pods-SWFastdfsClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWFastdfsClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWFastdfsClientTests/Pods-SWFastdfsClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A4F95BD4383F7B525D75DAD /* Pods_SWFastdfsClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWFastdfsClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F64A8278EC0C711A407D2F /* Pods-SWFastdfsClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWFastdfsClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWFastdfsClientTests/Pods-SWFastdfsClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA834AEF1D31EBB20074DA5F /* SWFastdfsClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWFastdfsClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA834AF21D31EBB20074DA5F /* SWFastdfsClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWFastdfsClient.h; sourceTree = "<group>"; };
+		BA834AF41D31EBB20074DA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA834AF91D31EBB20074DA5F /* SWFastdfsClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWFastdfsClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA834AFE1D31EBB20074DA5F /* SWFastdfsClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWFastdfsClientTests.swift; sourceTree = "<group>"; };
+		BA834B001D31EBB20074DA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA834B091D31EC490074DA5F /* TrackerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerClient.swift; sourceTree = "<group>"; };
+		BA834B0A1D31EC490074DA5F /* ClientGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientGlobal.swift; sourceTree = "<group>"; };
+		BA834B0B1D31EC490074DA5F /* TrackerGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerGroup.swift; sourceTree = "<group>"; };
+		BA834B0C1D31EC490074DA5F /* ProtoCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtoCommon.swift; sourceTree = "<group>"; };
+		BA834B0D1D31EC490074DA5F /* NameValuePair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameValuePair.swift; sourceTree = "<group>"; };
+		BA834B0E1D31EC490074DA5F /* TrackerServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerServer.swift; sourceTree = "<group>"; };
+		BA834B0F1D31EC490074DA5F /* UnixUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnixUtils.swift; sourceTree = "<group>"; };
+		BA834B101D31EC490074DA5F /* ServerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerInfo.swift; sourceTree = "<group>"; };
+		BA834B111D31EC490074DA5F /* FileInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
+		BA834B121D31EC490074DA5F /* StorageClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageClient.swift; sourceTree = "<group>"; };
+		BA834B131D31EC490074DA5F /* Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
+		BA834B141D31EC490074DA5F /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BA834B151D31EC490074DA5F /* StorageServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageServer.swift; sourceTree = "<group>"; };
+		BA834B161D31EC490074DA5F /* StorageClient1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageClient1.swift; sourceTree = "<group>"; };
+		BA834B171D31EC490074DA5F /* StructBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructBase.swift; sourceTree = "<group>"; };
+		BA834B181D31EC490074DA5F /* StructGroupStat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructGroupStat.swift; sourceTree = "<group>"; };
+		BA834B191D31EC490074DA5F /* ProtoStructDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtoStructDecoder.swift; sourceTree = "<group>"; };
+		BA834B1A1D31EC490074DA5F /* StructStorageStat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructStorageStat.swift; sourceTree = "<group>"; };
+		BA834B1B1D31EC490074DA5F /* UploadCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadCallback.swift; sourceTree = "<group>"; };
+		BA834B1C1D31EC490074DA5F /* DownloadCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadCallback.swift; sourceTree = "<group>"; };
+		BA834B1D1D31EC490074DA5F /* UploadStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadStream.swift; sourceTree = "<group>"; };
+		BA834B1E1D31EC490074DA5F /* DownloadStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadStream.swift; sourceTree = "<group>"; };
+		BA834B4B1D31EE930074DA5F /* FdfsClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FdfsClient.plist; sourceTree = "<group>"; };
+		BA834B4E1D31EF970074DA5F /* FdfsClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FdfsClientConfiguration.swift; sourceTree = "<group>"; };
+		BA834B541D31F1F40074DA5F /* FdfsClient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FdfsClient.plist; sourceTree = "<group>"; };
+		E2976C9DC1A014E7B0E72899 /* Pods-SWFastdfsClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWFastdfsClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWFastdfsClient/Pods-SWFastdfsClient.release.xcconfig"; sourceTree = "<group>"; };
+		EC1779356BD2252468EA24D5 /* Pods_SWFastdfsClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWFastdfsClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA834AEB1D31EBB20074DA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FD8C3F478DEF5006E25000 /* Pods_SWFastdfsClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA834AF61D31EBB20074DA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA834AFA1D31EBB20074DA5F /* SWFastdfsClient.framework in Frameworks */,
+				2A81BAEB0010B359FC0EB2D6 /* Pods_SWFastdfsClientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DFD32F34F74FD85DBECDC5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A3AE8EE718C18937BAF3C4D /* Pods-SWFastdfsClient.debug.xcconfig */,
+				E2976C9DC1A014E7B0E72899 /* Pods-SWFastdfsClient.release.xcconfig */,
+				61F64A8278EC0C711A407D2F /* Pods-SWFastdfsClientTests.debug.xcconfig */,
+				4816D4DB98BA5C3BF329EB60 /* Pods-SWFastdfsClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5CE7AB032258F149B7FC7078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC1779356BD2252468EA24D5 /* Pods_SWFastdfsClient.framework */,
+				5A4F95BD4383F7B525D75DAD /* Pods_SWFastdfsClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA834AE51D31EBB20074DA5F = {
+			isa = PBXGroup;
+			children = (
+				BA834AF11D31EBB20074DA5F /* SWFastdfsClient */,
+				BA834AFD1D31EBB20074DA5F /* SWFastdfsClientTests */,
+				BA834AF01D31EBB20074DA5F /* Products */,
+				2DFD32F34F74FD85DBECDC5A /* Pods */,
+				5CE7AB032258F149B7FC7078 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA834AF01D31EBB20074DA5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA834AEF1D31EBB20074DA5F /* SWFastdfsClient.framework */,
+				BA834AF91D31EBB20074DA5F /* SWFastdfsClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA834AF11D31EBB20074DA5F /* SWFastdfsClient */ = {
+			isa = PBXGroup;
+			children = (
+				BA834B091D31EC490074DA5F /* TrackerClient.swift */,
+				BA834B0A1D31EC490074DA5F /* ClientGlobal.swift */,
+				BA834B0B1D31EC490074DA5F /* TrackerGroup.swift */,
+				BA834B0C1D31EC490074DA5F /* ProtoCommon.swift */,
+				BA834B0D1D31EC490074DA5F /* NameValuePair.swift */,
+				BA834B0E1D31EC490074DA5F /* TrackerServer.swift */,
+				BA834B0F1D31EC490074DA5F /* UnixUtils.swift */,
+				BA834B101D31EC490074DA5F /* ServerInfo.swift */,
+				BA834B111D31EC490074DA5F /* FileInfo.swift */,
+				BA834B121D31EC490074DA5F /* StorageClient.swift */,
+				BA834B131D31EC490074DA5F /* Base64.swift */,
+				BA834B141D31EC490074DA5F /* Utils.swift */,
+				BA834B151D31EC490074DA5F /* StorageServer.swift */,
+				BA834B161D31EC490074DA5F /* StorageClient1.swift */,
+				BA834B171D31EC490074DA5F /* StructBase.swift */,
+				BA834B181D31EC490074DA5F /* StructGroupStat.swift */,
+				BA834B191D31EC490074DA5F /* ProtoStructDecoder.swift */,
+				BA834B1A1D31EC490074DA5F /* StructStorageStat.swift */,
+				BA834B1B1D31EC490074DA5F /* UploadCallback.swift */,
+				BA834B1C1D31EC490074DA5F /* DownloadCallback.swift */,
+				BA834B1D1D31EC490074DA5F /* UploadStream.swift */,
+				BA834B1E1D31EC490074DA5F /* DownloadStream.swift */,
+				BA834AF21D31EBB20074DA5F /* SWFastdfsClient.h */,
+				BA834AF41D31EBB20074DA5F /* Info.plist */,
+				BA834B4B1D31EE930074DA5F /* FdfsClient.plist */,
+				BA834B4E1D31EF970074DA5F /* FdfsClientConfiguration.swift */,
+			);
+			path = SWFastdfsClient;
+			sourceTree = "<group>";
+		};
+		BA834AFD1D31EBB20074DA5F /* SWFastdfsClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA834AFE1D31EBB20074DA5F /* SWFastdfsClientTests.swift */,
+				BA834B001D31EBB20074DA5F /* Info.plist */,
+				BA834B541D31F1F40074DA5F /* FdfsClient.plist */,
+			);
+			path = SWFastdfsClientTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA834AEC1D31EBB20074DA5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA834AF31D31EBB20074DA5F /* SWFastdfsClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA834AEE1D31EBB20074DA5F /* SWFastdfsClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA834B031D31EBB20074DA5F /* Build configuration list for PBXNativeTarget "SWFastdfsClient" */;
+			buildPhases = (
+				F725FF19B722D7B61C151894 /* 📦 Check Pods Manifest.lock */,
+				BA834AEA1D31EBB20074DA5F /* Sources */,
+				BA834AEB1D31EBB20074DA5F /* Frameworks */,
+				BA834AEC1D31EBB20074DA5F /* Headers */,
+				BA834AED1D31EBB20074DA5F /* Resources */,
+				25E285D73AAB400482115A92 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWFastdfsClient;
+			productName = SWFastdfsClient;
+			productReference = BA834AEF1D31EBB20074DA5F /* SWFastdfsClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA834AF81D31EBB20074DA5F /* SWFastdfsClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA834B061D31EBB20074DA5F /* Build configuration list for PBXNativeTarget "SWFastdfsClientTests" */;
+			buildPhases = (
+				D9729652C98A6362A14FE9B0 /* 📦 Check Pods Manifest.lock */,
+				BA834AF51D31EBB20074DA5F /* Sources */,
+				BA834AF61D31EBB20074DA5F /* Frameworks */,
+				BA834AF71D31EBB20074DA5F /* Resources */,
+				87876D84487F2EE7685EEFB8 /* 📦 Embed Pods Frameworks */,
+				6C4C35E80993EFB90128F664 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA834AFC1D31EBB20074DA5F /* PBXTargetDependency */,
+			);
+			name = SWFastdfsClientTests;
+			productName = SWFastdfsClientTests;
+			productReference = BA834AF91D31EBB20074DA5F /* SWFastdfsClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA834AE61D31EBB20074DA5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Purplelight;
+				TargetAttributes = {
+					BA834AEE1D31EBB20074DA5F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BA834AF81D31EBB20074DA5F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BA834AE91D31EBB20074DA5F /* Build configuration list for PBXProject "SWFastdfsClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA834AE51D31EBB20074DA5F;
+			productRefGroup = BA834AF01D31EBB20074DA5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA834AEE1D31EBB20074DA5F /* SWFastdfsClient */,
+				BA834AF81D31EBB20074DA5F /* SWFastdfsClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA834AED1D31EBB20074DA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA834B551D31F1F40074DA5F /* FdfsClient.plist in Resources */,
+				BA834B4C1D31EE930074DA5F /* FdfsClient.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA834AF71D31EBB20074DA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA834B561D31F1F40074DA5F /* FdfsClient.plist in Resources */,
+				BA834B4D1D31EE930074DA5F /* FdfsClient.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25E285D73AAB400482115A92 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWFastdfsClient/Pods-SWFastdfsClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C4C35E80993EFB90128F664 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWFastdfsClientTests/Pods-SWFastdfsClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87876D84487F2EE7685EEFB8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWFastdfsClientTests/Pods-SWFastdfsClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9729652C98A6362A14FE9B0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F725FF19B722D7B61C151894 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA834AEA1D31EBB20074DA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA834B3B1D31EC490074DA5F /* StructBase.swift in Sources */,
+				BA834B1F1D31EC490074DA5F /* TrackerClient.swift in Sources */,
+				BA834B291D31EC490074DA5F /* TrackerServer.swift in Sources */,
+				BA834B331D31EC490074DA5F /* Base64.swift in Sources */,
+				BA834B251D31EC490074DA5F /* ProtoCommon.swift in Sources */,
+				BA834B3F1D31EC490074DA5F /* ProtoStructDecoder.swift in Sources */,
+				BA834B451D31EC490074DA5F /* DownloadCallback.swift in Sources */,
+				BA834B211D31EC490074DA5F /* ClientGlobal.swift in Sources */,
+				BA834B311D31EC490074DA5F /* StorageClient.swift in Sources */,
+				BA834B231D31EC490074DA5F /* TrackerGroup.swift in Sources */,
+				BA834B2B1D31EC490074DA5F /* UnixUtils.swift in Sources */,
+				BA834B4F1D31EF970074DA5F /* FdfsClientConfiguration.swift in Sources */,
+				BA834B471D31EC490074DA5F /* UploadStream.swift in Sources */,
+				BA834B2F1D31EC490074DA5F /* FileInfo.swift in Sources */,
+				BA834B2D1D31EC490074DA5F /* ServerInfo.swift in Sources */,
+				BA834B411D31EC490074DA5F /* StructStorageStat.swift in Sources */,
+				BA834B431D31EC490074DA5F /* UploadCallback.swift in Sources */,
+				BA834B391D31EC490074DA5F /* StorageClient1.swift in Sources */,
+				BA834B271D31EC490074DA5F /* NameValuePair.swift in Sources */,
+				BA834B351D31EC490074DA5F /* Utils.swift in Sources */,
+				BA834B3D1D31EC490074DA5F /* StructGroupStat.swift in Sources */,
+				BA834B371D31EC490074DA5F /* StorageServer.swift in Sources */,
+				BA834B491D31EC490074DA5F /* DownloadStream.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA834AF51D31EBB20074DA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA834B381D31EC490074DA5F /* StorageServer.swift in Sources */,
+				BA834B221D31EC490074DA5F /* ClientGlobal.swift in Sources */,
+				BA834B421D31EC490074DA5F /* StructStorageStat.swift in Sources */,
+				BA834B2A1D31EC490074DA5F /* TrackerServer.swift in Sources */,
+				BA834AFF1D31EBB20074DA5F /* SWFastdfsClientTests.swift in Sources */,
+				BA834B3E1D31EC490074DA5F /* StructGroupStat.swift in Sources */,
+				BA834B281D31EC490074DA5F /* NameValuePair.swift in Sources */,
+				BA834B341D31EC490074DA5F /* Base64.swift in Sources */,
+				BA834B481D31EC490074DA5F /* UploadStream.swift in Sources */,
+				BA834B361D31EC490074DA5F /* Utils.swift in Sources */,
+				BA834B441D31EC490074DA5F /* UploadCallback.swift in Sources */,
+				BA834B241D31EC490074DA5F /* TrackerGroup.swift in Sources */,
+				BA834B4A1D31EC490074DA5F /* DownloadStream.swift in Sources */,
+				BA834B2E1D31EC490074DA5F /* ServerInfo.swift in Sources */,
+				BA834B261D31EC490074DA5F /* ProtoCommon.swift in Sources */,
+				BA834B201D31EC490074DA5F /* TrackerClient.swift in Sources */,
+				BA834B3C1D31EC490074DA5F /* StructBase.swift in Sources */,
+				BA834B2C1D31EC490074DA5F /* UnixUtils.swift in Sources */,
+				BA834B501D31EF970074DA5F /* FdfsClientConfiguration.swift in Sources */,
+				BA834B321D31EC490074DA5F /* StorageClient.swift in Sources */,
+				BA834B3A1D31EC490074DA5F /* StorageClient1.swift in Sources */,
+				BA834B401D31EC490074DA5F /* ProtoStructDecoder.swift in Sources */,
+				BA834B301D31EC490074DA5F /* FileInfo.swift in Sources */,
+				BA834B461D31EC490074DA5F /* DownloadCallback.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA834AFC1D31EBB20074DA5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA834AEE1D31EBB20074DA5F /* SWFastdfsClient */;
+			targetProxy = BA834AFB1D31EBB20074DA5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA834B011D31EBB20074DA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA834B021D31EBB20074DA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA834B041D31EBB20074DA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3AE8EE718C18937BAF3C4D /* Pods-SWFastdfsClient.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SWFastdfsClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purplelight.SWFastdfsClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA834B051D31EBB20074DA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2976C9DC1A014E7B0E72899 /* Pods-SWFastdfsClient.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SWFastdfsClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purplelight.SWFastdfsClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BA834B071D31EBB20074DA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F64A8278EC0C711A407D2F /* Pods-SWFastdfsClientTests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SWFastdfsClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purplelight.SWFastdfsClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA834B081D31EBB20074DA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4816D4DB98BA5C3BF329EB60 /* Pods-SWFastdfsClientTests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SWFastdfsClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purplelight.SWFastdfsClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA834AE91D31EBB20074DA5F /* Build configuration list for PBXProject "SWFastdfsClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA834B011D31EBB20074DA5F /* Debug */,
+				BA834B021D31EBB20074DA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA834B031D31EBB20074DA5F /* Build configuration list for PBXNativeTarget "SWFastdfsClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA834B041D31EBB20074DA5F /* Debug */,
+				BA834B051D31EBB20074DA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA834B061D31EBB20074DA5F /* Build configuration list for PBXNativeTarget "SWFastdfsClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA834B071D31EBB20074DA5F /* Debug */,
+				BA834B081D31EBB20074DA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA834AE61D31EBB20074DA5F /* Project object */;
+}

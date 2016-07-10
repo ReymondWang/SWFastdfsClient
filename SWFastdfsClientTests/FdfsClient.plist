@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>TrackerServer</key>
-	<string>139.196.186.85:22122</string>
+	<string>192.168.0.1:22122</string>
 	<key>SecretKey</key>
 	<string>FastDFS1234567890</string>
 	<key>AntiStealToken</key>
